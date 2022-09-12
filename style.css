@@ -1,0 +1,169 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* NAVBAR DESIGN */
+#navbar {
+    background-color: lightgray;
+    padding: 25px;
+    display: flex; 
+    justify-content: flex-end;  
+    align-items: center;
+    position: sticky;
+    top: 0;
+
+}
+
+#body > p {
+    font-family: 'Overpass', sans-serif;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    font-family: 'Overpass', sans-serif;
+    margin: 0px;
+    padding: 25px;
+    background-color: lightgray;
+}
+
+.buttons {
+    margin: 15px;
+    border: transparent;
+    background-color: lightgray;
+    cursor: pointer;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.buttons:hover {
+    border-bottom: 1px black solid;
+    transition: 0.5s;
+}
+
+
+#body > button {
+    width: 20px;
+    height: 20px;
+    border-radius: 12px;
+    border-width: 1px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+}
+
+#homePage {
+    font-family: 'Overpass', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 10px;
+}
+
+#homePage button {
+    width: 20px;
+    height: 20px;
+    border-radius: 12px;
+    border-width: 1px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#homePage button:hover {
+    background-color: lightgray;
+}
+
+.experiencePage {
+    font-family: 'Overpass', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 100px;
+    flex-wrap: wrap;
+}
+
+.contactMe {
+    font-family: 'Overpass', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px 100px;
+}
+
+.contactMe button {
+    padding: 3px;
+    border-radius: 4px;
+    border-width: 1px;
+}
+
+.contactMe input {
+    font-family: 'Overpass', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+@media screen 
+    and (max-width : 800px) {
+        #navbar {
+            align-items: center;
+            justify-content: center;
+        } 
+     }
+
+
+@media screen 
+     and (max-width : 600px) {
+        } #homePage > h3 {
+             font-size: 16px;
+         } #homePage > p {
+            font-size: 12px;
+         } .experiencePage h1 {
+            font-size: 18px;
+         } .experiencePage h3 {
+            font-size: 16px;
+         } .experiencePage p {
+            font-size: 12px;
+         }
+      
+ @media screen 
+      and (min-width: 1080px) {
+        #homePage > h3 {
+            font-size: 20px;
+      } #homePage > p {
+        font-size: 14px;
+      } .experiencePage h1 {
+        font-size: 24px;
+      } .experiencePage h3 {
+        font-size: 20px;
+     } .experiencePage p {
+        font-size: 14px;
+     }
+}
+
+
