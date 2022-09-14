@@ -15,19 +15,6 @@
 
 }
 
-#body > p {
-    font-family: 'Overpass', sans-serif;
-    margin-left: 10px;
-    margin-bottom: 10px;
-}
-
-.footer {
-    font-family: 'Overpass', sans-serif;
-    margin: 0px;
-    padding: 25px;
-    background-color: lightgray;
-}
-
 .buttons {
     margin: 15px;
     border: transparent;
@@ -42,11 +29,51 @@
     transition: 0.5s;
 }
 
+/* BODY  */
 
-#body > button {
+#body > p {
+    font-family: 'Overpass', sans-serif;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    font-family: 'Overpass', sans-serif;
+    margin: 0px;
+    padding: 25px;
+    background-color: lightgray;
+}
+
+#leftSide {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    
+    
+}
+
+#leftSide > button {
     width: 20px;
     height: 20px;
-    border-radius: 12px;
+    border-width: 1px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 0px;
+    left: 10px;
+}
+
+#rightSide {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+#rightSide > button {
+    width: 20px;
+    height: 20px; 
     border-width: 1px;
     display: flex;
     text-align: center;
@@ -55,6 +82,14 @@
     position: relative;
     bottom: 10px;
     left: 10px;
+}
+
+#body > #scrollToTop {
+    border-radius: 0;
+    position: absolute, sticky;
+    left: 10px;
+    
+    
 }
 
 #homePage {
@@ -113,8 +148,21 @@
     font-family: 'Overpass', sans-serif;
 }
 
+#bonusContent {
+    margin: 0 100px;
+    width: auto;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+}
 
+#bonusContent > button {
+    height: 40px;
+    width: 150px;
+    justify-content: center;
+    position: absolute;
 
+}
 
 
 

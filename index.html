@@ -17,9 +17,9 @@
 <body>
     <div id="body">
     <div style="height: 40px; width: auto;" id="navbar">
-        <a href="#" target="_blank"><button class="buttons" type="button">Home</button></a>
-        <a href="#" target="_blank"><button class="buttons" type="button">Experience</button></a>
-        <a href="#" target="_blank"><button class="buttons" type="button">Contact</button></a>
+        <a href="#"><button class="buttons" type="button">Home</button></a>
+        <a href="#"><button class="buttons" type="button">Experience</button></a>
+        <a href="#"><button class="buttons" type="button">Contact</button></a>
         
     </div>
     <div style="height: 400px; width: auto;" id="homePage">
@@ -53,7 +53,12 @@
             <button type="submit">Submit</button>
         </form>
     </div>
-    <button id="changeThemeButton"><i class="fa-duotone fa-palette"></i></button>
+    <div id="bonusContent">
+        <button onclick="getMoreContent()" id="learnMore">Click to learn more about me</button>
+        <div id="moreContent"></div>
+    </div>
+    <div id="leftSide"><button id="changeThemeButton"><i class="fa-duotone fa-palette"></i></button></div>
+    <div id="rightSide"><button id="scrollToTop">^</button></div>
 <div class="footer">
     <h4>Copyright 2022 Silvestre Fernandez</h4>
 </div>
